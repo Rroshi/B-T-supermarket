@@ -148,8 +148,9 @@ body{
 table{
                 width: 100%;
                 border-collapse: collapse;
-                border: 3px solid red;
+                border: 3px solid #fda204;
                 background-color: white;
+    
             }
            
             tr{
@@ -382,10 +383,10 @@ table{
 #back-to-top {
   display: inline-block; 
     text-decoration: none;
-  border: 4px solid #a03123; 
+  border: 4px solid #fda204; 
   outline: none; 
-  background-color: #F0FFBA; 
-  color: #a03123;
+  background-color: #1d951b; 
+  color: #fda204;
   padding: 7px; 
   border-radius: 8px ;
   font-size: 25px;
@@ -395,43 +396,14 @@ table{
 }
 
 #back-to-top:hover {
-    background-color: #a03123;
-    color: #F0FFBA;
+    background-color: #fda204;
+    color: #1d951b;
     border-radius: 8px;
-    border: solid #F0FFBA;
+    border: solid #1d951b;
 }
 
 
 .scrollTop{
-   position: fixed;
-    bottom: 15px;
-    right: 10px;
-}
-
-#back-to-top1 {
-  display: inline-block; 
-    text-decoration: none;
-  border: 4px solid #a03123; 
-  outline: none; 
-  background-color: #F0FFBA; 
-  color: #a03123;
-  padding: 7px; 
-  border-radius: 8px ;
-  font-size: 25px;
-    width: 45px;
-  transition: 2s ease-in-out;
-    text-align: center;
-}
-
-#back-to-top1:hover {
-    background-color: #a03123;
-    color: #F0FFBA;
-    border-radius: 8px;
-    border: solid #F0FFBA;
-}
-
-
-.scrollTop1{
    position: fixed;
     bottom: 15px;
     right: 10px;

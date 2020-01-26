@@ -5,7 +5,6 @@ html{
 body{
     padding-top: 5px;
     margin: 0px;
-    overflow-x: hidden;
 }
 
 /*Portokolli*/
@@ -108,6 +107,7 @@ body{
 .asa{
     justify-content: center;
 }
+
 .home2{
     font-size:120%; 
     font-family:sans-serif; 
@@ -156,7 +156,7 @@ body{
     height: 290px;
     position: absolute;
     top:250px;
-    left:25px;
+    left:5px;
 }
 .b_story{
     background-color: darkorange;
@@ -203,11 +203,11 @@ button:hover {
     opacity: 0.8;
 }
 .menaxhim{
-    width:390px;
+    width:340px;
     height: 290px;
     position: absolute;
     top:250px;
-    left:460px;
+    left:400px;
 }
 .b_menaxhim{
     background-color: darkorange;
@@ -219,7 +219,7 @@ button:hover {
     height: 40px;
     position: absolute;
     top:490px;
-    left:519px;
+    left:449px;
     text-align: center;
     font-weight: bold;
 }
@@ -229,7 +229,7 @@ button:hover {
     font-size:20px;
     position: absolute;
     top:490px;
-    left:465px;
+    left:400px;
     height: 42px;
     display: none;
 }
@@ -238,15 +238,15 @@ button:hover {
     color: darkorange;
     font-size: 20px;
     position: absolute;
-    top:487px;
-   left:763px;
+    top:490px;
+    left:690px;
 }
 .mision{
     width:340px;
     height: 290px;
     position: absolute;
     top:250px;
-    left:910px;
+    left:810px;
 }
 .b_mision{
     background-color: darkorange;
@@ -258,7 +258,7 @@ button:hover {
     height: 40px;
     position: absolute;
     top:490px;
-    left:960px;
+    left:860px;
     font-weight: bold;
     text-align: center;
 }
@@ -268,7 +268,7 @@ button:hover {
     font-size:20px;
     position: absolute;
     top:490px;
-    left:911px;
+    left:811px;
     height: 42px;
 }
 .next3 {
@@ -277,16 +277,16 @@ button:hover {
     font-size: 20px;
     position: absolute;
     top:490px;
-    left:903px;
+    left:1103px;
     display: none;
 }
 
 .news{
-    width:380px;
-    height: 260px;
+    width:350px;
+    height: 290px;
     position: absolute;
-    top:595px;
-    right:710px;
+    top:250px;
+    left:1210px;
 }
 .b_news{
    background-color: darkorange;
@@ -297,8 +297,8 @@ button:hover {
     width:240px;
     height:40px;
     position:absolute;
-    top:699px;
-    left:270px;
+    top:490px;
+    left:1270px;
     font-weight: bold;
     text-align: center;
 }
@@ -307,8 +307,8 @@ button:hover {
     color: darkorange;
     font-size:20px;
     position: absolute;
-    top:699px;
-    left:220px;
+    top:490px;
+    left:1220px;
     height: 42px;
 }
 .next1{
@@ -371,8 +371,8 @@ button:hover {
 .award{
     position: absolute;
     top:370px;
-    left:-44px;
-    width:380px;
+    left: 5px;
+    width:280px;
     height: 225px;
 }
 #awarded{
@@ -433,15 +433,15 @@ button:hover {
     width:346px;
     height: 260px;
     top:580px;
-    left:720px;
+    left:620px;
 }
 .up{
      background-color: green;
     color: darkorange;
     font-size: 20px;
     position: absolute;
-    top:620px;
-    left:870px;
+    top:590px;
+    left:770px;
     display: block;
     transform: rotate(-90deg);
 
@@ -456,7 +456,7 @@ button:hover {
     height:40px;
     position:absolute;
     top:690px;
-    left:770px;
+    left:670px;
     font-weight: bold;
     text-align: center;   
 }
@@ -551,6 +551,9 @@ button:hover {
     width:350px;
     text-align: center;
 }
+
+
+
 
 #rrethnesh1{
     background-color: #1d951b;

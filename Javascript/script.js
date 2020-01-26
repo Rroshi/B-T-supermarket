@@ -38,3 +38,7 @@ $(window).scroll(function(){
         $('#back-to-top1').removeClass('scrollTop');
     }
 })
+
+function myFunction1() {
+  alert("Hello! I am an alert box!");
+}

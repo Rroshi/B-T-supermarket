@@ -1,31 +1,3 @@
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-
-$(window).scroll(function(){
-    
-    let position = $(this).scrollTop();
-    
-    if(position>=30){
-        $('#back-to-top').addClass('scrollTop');
-    }else{
-        $('#back-to-top').removeClass('scrollTop');
-    }
-})
-
-
 function send(){
             var a = document.forms["sherbim"]["Emer Mbiemer"].value;
             var b = document.forms["sherbim"]["Email"].value;
@@ -33,12 +5,14 @@ function send(){
             var d = document.forms["sherbim"]["Mesazhi"].value;
                 if(a=="" || b=="" || c=="" || d==""){
         alert("Ju lutem plotesoni te gjitha fushat e kerkuara per te derguar kerkesen tuaj qe deshironi");
+                    document.getElementById("formId").method="get";
             }
                 else{
                     document.getElementById("formId").style.visibility='hidden';
                     document.getElementById("info3").style.visibility='hidden';
                     document.getElementById("after").style.display='block';
                     document.getElementById("formId").action="mailto:supermarket.buyandtaste@gmail.com";
+                    document.getElementById("formId").method="post";
                 }
             }
             if ( window.history.replaceState ) {
@@ -48,6 +22,12 @@ function shfaq(){
     document.getElementById("Sfoto").style.visibility="visible";
 }
 function fsheh(){
+    document.getElementById("Sfoto").style.visibility="hidden";
+}
+function shfaq2(){
+    document.getElementById("Sfoto").style.visibility="visible";
+}
+function fsheh2(){
     document.getElementById("Sfoto").style.visibility="hidden";
 }
 function PintShfaq(){
@@ -73,6 +53,12 @@ function twittShfaq(){
 }
 function twittFsheh(){
     document.getElementById("twittShow").style.visibility="hidden";
+}
+function instaShfaq(){
+    document.getElementById("instagramShow").style.visibility="visible";
+}
+function instaFsheh(){
+    document.getElementById("instagramShow").style.visibility="hidden";
 }
 
 
